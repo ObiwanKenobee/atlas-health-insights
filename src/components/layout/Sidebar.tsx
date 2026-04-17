@@ -9,7 +9,7 @@ import {
   Settings,
   LayoutDashboard,
 } from "lucide-react";
-import { Logo } from "./Logo";
+import { Logo } from "@/components/Logo";
 
 const items = [
   { title: "Overview", url: "/", icon: LayoutDashboard, end: true },
