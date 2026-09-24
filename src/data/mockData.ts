@@ -17,10 +17,10 @@ export const patients = [
 ] as const;
 
 export const earlyAlerts = [
-  { id: 1, patient: "Wanjiru K.", room: "ICU-2 / Bed 4", type: "Sepsis SIRS criteria met", time: "2 min ago", severity: "critical" },
-  { id: 2, patient: "Otieno M.", room: "CCU / Bed 7", type: "Cardiac arrhythmia detected", time: "11 min ago", severity: "high" },
-  { id: 3, patient: "Achieng' P.", room: "HDU / Bed 3", type: "Rising lactate trend", time: "24 min ago", severity: "high" },
-  { id: 4, patient: "Kimani R.", room: "Ward 4B / Bed 12", type: "MEWS score escalation", time: "38 min ago", severity: "moderate" },
+  { id: 1, patient: "Wanjiru K.", patientId: "AKU-3041", room: "ICU-2 / Bed 4", type: "Sepsis SIRS criteria met", minutesAgo: 2, severity: "critical" },
+  { id: 2, patient: "Otieno M.", patientId: "AKU-3018", room: "CCU / Bed 7", type: "Cardiac arrhythmia detected", minutesAgo: 11, severity: "high" },
+  { id: 3, patient: "Achieng' P.", patientId: "AKU-2987", room: "HDU / Bed 3", type: "Rising lactate trend", minutesAgo: 24, severity: "high" },
+  { id: 4, patient: "Kimani R.", patientId: "AKU-3052", room: "Ward 4B / Bed 12", type: "MEWS score escalation", minutesAgo: 38, severity: "moderate" },
 ];
 
 export const triageQueue = [
